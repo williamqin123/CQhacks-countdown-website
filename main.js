@@ -23,7 +23,7 @@ function countdownTimer() {
     minutesEl.innerText = formatNumber(Math.floor((distance % hour) / minute))
     secondsEl.innerText = formatNumber(Math.floor((distance % minute) / second))
     if (distance < 0) {
-      document.getElementById('headline').innerText = "our website is ready"
+      //document.getElementById('headline').innerText = "our website is ready"
       document.getElementById('countdown').style.display = 'none'
 
       // Stop interval
