@@ -4,7 +4,7 @@ var minutesEl = document.getElementById('minutes')
 var secondsEl = document.getElementById('seconds')
 
 function countdownTimer() {
-  const countDownDate = new Date('19 Apr 2024').getTime()
+  const countDownDate = new Date('2024-04-19T00:00:00.000Z').getTime(); // YYYY-MM-DDT00:00:00.000Z is UTC format
 
   // Convert to milliseconds
   const second = 1000

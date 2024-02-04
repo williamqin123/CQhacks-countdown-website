@@ -10,6 +10,7 @@
 
 .date {
     color: pink;
+    cursor: help; /* indicates tooltip */
 }
 
 body {
